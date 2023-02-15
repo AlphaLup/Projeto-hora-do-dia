@@ -14,19 +14,19 @@ if(5 < horas && horas < 12){
     horario.innerHTML = horaAtual;
     imagem.src = "./midia/morning.jpg";
     main.style.backgroundColor = "#fdcf78";
-    body.style.backgroundColor = "#ff9900"
+    body.style.backgroundColor = "#008cff"
 }
 else if(12 < horas && horas < 18){
     subtitulo.innerHTML = "<h2>Tarde</h2>";
     horario.innerHTML = horaAtual;
     imagem.src = "./midia/afternoon.jpg";
     main.style.backgroundColor = "#f5ffa0"
-    body.style.backgroundColor = "#f2ff39"
+    body.style.backgroundColor = "#ff9900"
 }
 else{
     subtitulo.innerHTML = "<h2>Noite</h2>";
     horario.innerHTML = horaAtual;
     imagem.src = "./midia/night.jpg";
     main.style.backgroundColor= "#838fff"
-    body.style.backgroundColor = "#0044ff"
+    body.style.backgroundColor = "#2f00ff"
 }

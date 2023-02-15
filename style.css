@@ -1,0 +1,26 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h1{
+    font-weight: bold;
+}
+h2{
+    margin: 0px;
+}
+main > img{
+    border-radius: 30px;
+    width: 250px;
+    height: 250px;
+}
+main{
+    border-radius: 10px;
+    background-color: #bebebe;
+    padding: 20px;
+}
+footer#p{
+    font-weight: lighter;
+}

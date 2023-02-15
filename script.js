@@ -1,6 +1,6 @@
 var tempoAtual = new Date();
 var horas = tempoAtual.getHours();
-var minutos = tempoAtual.getMinutes();
+var minutos = tempoAtual.getMinutes()<10?'0':'' + date.getMinutes();
 var horaAtual = `${horas}:${minutos}`
 
 var subtitulo = window.document.getElementById("subtitulo");
